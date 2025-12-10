@@ -1,3 +1,15 @@
+/* Здесь вы напишете основную часть стилей страницы.
+
+Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
+✦ like-icon — для svg-иконки анимированного сердца
+✦ card__like-button — для кнопки Like рядом с иконкой
+✦ card__icon-button — для кнопки, оборачивающей иконку
+✦ card__icon-button — для кнопки, оборачивающей иконку
+✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
+✦ button__text — для обозначения текстового элемента внутри кнопки
+
+*/
+
 .page {
   margin: auto;
   font-family: var(--main-font), sans-serif;
@@ -110,7 +122,7 @@
   filter: grayscale(80%);
 }
 
-.filter_brightness{
+.filter_brightness {
   filter: brightness(200%);
 }
 
@@ -257,11 +269,6 @@
     grid-column: 1 / -1;
     text-transform: uppercase;
     inline-size: 100%;
-}
-
-.footer_dialog__title {
-  font-size: 0.875rem;
-  line-height: 1.5;
 }
 
 .footer_dialog[open] {
